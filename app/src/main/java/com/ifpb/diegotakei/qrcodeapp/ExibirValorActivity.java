@@ -16,6 +16,6 @@ public class ExibirValorActivity extends Activity {
 
         Intent intent = getIntent();
 
-        conteudoLido.setText((String) intent.getSerializableExtra("conteudoLido"));
+        conteudoLido.setText(("O conteúdo lido foi: "+ (String) intent.getSerializableExtra("conteudoLido")));
     }
 }
